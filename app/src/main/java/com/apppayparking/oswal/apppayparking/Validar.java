@@ -12,6 +12,7 @@ import android.widget.Toast;
 public class Validar extends Activity implements View.OnClickListener {
 
     Button botonvalidar;
+    //pull
 
 
     @Override
