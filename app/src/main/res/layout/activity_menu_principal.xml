@@ -3,18 +3,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-    android:background="#000000"
-    tools:context="com.apppayparking.oswal.apppayparking.Splash">
+    tools:context="com.apppayparking.oswal.apppayparking.MenuPrincipal">
 
-    <ImageView
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/splash"
-
+        android:text="Hola que hace "
         />
-
-
-
 
 </LinearLayout>

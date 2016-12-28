@@ -10,9 +10,46 @@
     android:orientation="vertical"
     tools:context="com.apppayparking.oswal.apppayparking.Validar">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="80dp"
+        android:src="@drawable/ingresar"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:inputType="numberPassword"
+        android:hint="Ingresar PING"
+        android:gravity="center_horizontal"
+        android:textColorHint="#0171a7"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/botonid"
+        android:background="#0171a7"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:text="Comenzar"
+        android:layout_marginTop="25dp"
+        android:onClick="onClick" />
+
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Hola que hace"/>
+        android:layout_height="wrap_content"
+        android:text="@string/contacto"
+        android:textColor="#0171a7"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="130dp"
+        />
+
+
 
 </LinearLayout>
